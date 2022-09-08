@@ -1,0 +1,400 @@
+{
+    "intents": [
+        {
+            "tag": "Greeting",
+            "patterns": [
+                "hi there",
+                "how are you",
+                "hi",
+                "hello",
+                "welcome",
+                "hey"
+            ],
+            "responses": [
+                "How can I help you?"
+            ]
+        },
+        {
+            "tag": "VITEEE Date",
+            "patterns": [
+                "date",
+                "viteee date",
+                "vit exam date",
+                "viteee exam date"
+            ],
+            "responses": [
+                "The exam will be held on 10th June 2022"
+            ]
+        },
+        {
+            "tag": "VITEEE Fullform",
+            "patterns": [
+                "viteee means",
+                "viteee full form",
+                "viteee",
+                "viteee fullform"
+            ],
+            "responses": [
+                "VIT Engineering Entrance Exam"
+            ]
+        },
+        {
+            "tag": "VITEEE Apllication Form",
+            "patterns": [
+                "application form",
+                "viteee form",
+                "viteee application",
+                "viteee application form"
+            ],
+            "responses": [
+                "Online application @ https://viteee.vit.ac.in/"
+            ]
+        },
+        {
+            "tag": "VITEEE Cost",
+            "patterns": [
+                "exam fees",
+                "viteee fees",
+                "exam fee",
+                "viteee fee",
+                "What is the cost of the VITEEE Application form?"
+            ],
+            "responses": [
+                "VITEEE Exam Fee is ₹1250"
+            ]
+        },
+        {
+            "tag": "Campuses",
+            "patterns": [
+                "campus",
+                "campuses",
+                "vit campus",
+                "all campuses",
+                "how many campuses does vit have?"
+            ],
+            "responses": [
+                "VIT has four campuses : VIT Vellore, VIT Chennai, VIT AP, VIT Bhopal"
+            ]
+        },
+        {
+            "tag": "Fee Structure",
+            "patterns": [
+                "college fees",
+                "vit fees",
+                "vit college fees",
+                "what is the fee structure",
+                "fee structure",
+                "fees structure",
+                "where can i find the fee structure for various programmes?"
+            ],
+            "responses": [
+                " Please follow the link https://vit.ac.in/admission/ug/fee-structure"
+            ]
+        },
+        {
+            "tag": "Scope",
+            "patterns": [
+                "scope",
+                "best branch",
+                "best scope",
+                "best course",
+                "which branch in engineering would have the best scope?"
+            ],
+            "responses": [
+                "All Engineering branches have an equally good scope. Much depends on your passion for the program and your endeavour to excel."
+            ]
+        },
+        {
+            "tag": "VITEEE Close Date",
+            "patterns": [
+                "what is the closing date for issue of applications?",
+                "viteee close date",
+                "viteee closing date",
+                "closing date for viteee",
+                "viteee last date",
+                "viteee last"
+            ],
+            "responses": [
+                "Applications will be issued till end of 30th May 2022"
+            ]
+        },
+        {
+            "tag": "Management Quota",
+            "patterns": [
+                "does vit offer admissions through management quota?",
+                "management quota",
+                "external admission",
+                "management quota admission"
+            ],
+            "responses": [
+                "There is no Management Quota in VIT. Admissions is purely based on the merit rank obtained in the VITEEE and for other Undergraduate programs, it is based on the merit of your XII/ Higher Secondary Boards by which you would be accordingly ranked."
+            ]
+        },
+        {
+            "tag": "Lateral Entry",
+            "patterns": [
+                "is there lateral entry admission available for diploma candidates?",
+                "lateral entry",
+                "lateral entry admissions",
+                "diploma admission"
+            ],
+            "responses": [
+                "There is no lateral entry admission offered for B.Tech and UG Programmes. Diploma holders (10+3) are eligible for B.Sc. Multimedia and Animation, Visual Communication, Fashion Designing (Chennai) with an overall aggregate of 60%."
+            ]
+        },
+        {
+            "tag": "JEE Validity",
+            "patterns": [
+                "would merit of higher secondary board,jee main/sat scores be considered for admission to the b.tech. degree programme?",
+                "jee valid",
+                "admission through jee"
+            ],
+            "responses": [
+                "Higher Secondary Board, JEE Main/ SAT scores will not be considered for admission to the B.Tech. Degree Programme."
+            ]
+        },
+        {
+            "tag": "Syllabus",
+            "patterns": [
+                "syllabus",
+                "viteee syllabus",
+                "exam syllabus"
+            ],
+            "responses": [
+                "Please visit the https://viteee.vit.ac.in/ link for the syllabus."
+            ]
+        },
+        {
+            "tag": "Question Pattern",
+            "patterns": [
+                "question paper",
+                "viteee qp",
+                "viteee question paper",
+                "what is the question pattern for viteee?"
+            ],
+            "responses": [
+                "The questions (MCQ) will primarily be from the State Board of Higher Secondary Education and the CBSE syllabus. Math’s or Biology (40 questions), Physics (35 questions), Chemistry (35 questions), Aptitude (10 questions) and English (5 questions) in two and half examination without negative marking."
+            ]
+        },
+        {
+            "tag": "VITEEE",
+            "patterns": [
+                "viteee",
+                "what is viteee?",
+                "viteee explain",
+                "explain viteee"
+            ],
+            "responses": [
+                "VIT Engineering Entrance Examination will be conducted between 30th June to 6th July 2022 CBT, Computer based test. The duration of the Entrance Examination will be of 2 hours and 30 minutes, The details on the sessions and timings would be intimated before slot booking."
+            ]
+        },
+        {
+            "tag": "Change of Allotment",
+            "patterns": [
+                "allotment change",
+                "change of allotment",
+                "if a student has selected / allotted a particular branch of engineering through counselling, in a selected campus, under a specific category, would it be possible to change the branch, campus or category later?"
+            ],
+            "responses": [
+                "It is most unlikely that a change could be accommodated, once allotted. There is no Sliding/ up gradation in category / change of campus option offered further to admission."
+            ]
+        },
+        {
+            "tag": "VITEEE Proof",
+            "patterns": [
+                "any viteee proof",
+                "proof for viteee",
+                "exam proof",
+                "viteee proof",
+                "proof for exam"
+            ],
+            "responses": [
+                "You could produce either your Aadhaar card / Driving license / PAN card / Passport / Voter ID card or else School ID card as original."
+            ]
+        },
+        {
+            "tag": "Edit Application",
+            "patterns": [
+                "application edit",
+                "viteee application edit",
+                "editing application",
+                "editing viteee application"
+            ],
+            "responses": [
+                "Once you complete the application form, you will be able to edit your application. (After making the payment and uploading your photo & Signature).You will find the ‘Edit’ option on the left side of the screen at the application – download stage. (You would be able to edit all fields inclusive of test city and uploaded documents)."
+            ]
+        },
+        {
+            "tag": "Eligibility",
+            "patterns": [
+                "eligibility criteria",
+                "criteria for eligibility",
+                "admission eligibility",
+                "eligibility of admission",
+                "eligibility in vit",
+                "vit eligibility"
+            ],
+            "responses": [
+                "You should satisfy the eligibility criteria of obtaining a minimum aggregate of 55% in PCM /PCB for the B.Tech. Programme."
+            ]
+        },
+        {
+            "tag": "Age Limit",
+            "patterns": [
+                "age limit for viteee",
+                "viteee age restriction",
+                "age restriction for exam",
+                "age restriction for viteee",
+                "viteee age limit",
+                "age limit for exam"
+            ],
+            "responses": [
+                "Candidates whose date of birth falls on or after 1st July 2000 are only eligible to apply for VITEEE – 2022."
+            ]
+        },
+        {
+            "tag": "PCB Exam",
+            "patterns": [
+                "which engineering stream would i be eligible to apply for if i opt for physics, chemistry and biology?",
+                "courses available for physics,chemistry and biology test"
+            ],
+            "responses": [
+                "If you have opted for Physics, Chemistry and Biology in the qualifying examination, you would be eligible only for \nB.Tech Bio-Engineering \nB.Tech Biotechnology \nB.Tech Computer Science and Engineering with specialization in Bioinformatics \nB.Tech Computer Science and Engineering (Specialization in Health Informatics) \nHowever you would be required to register for Mathematics as bridge course, which is mandatory"
+            ]
+        },
+        {
+            "tag": "Admission",
+            "patterns": [
+                "how to get a seat in vit?",
+                "vit admission",
+                "admission in vit",
+                "vit admission process",
+                "admission process",
+                "admission"
+            ],
+            "responses": [
+                "Students get admitted to VIT only through VITEEE examination. No external agents can guarantee an admission in VIT. No mangagement quota as well. Admission in VIT University is decided based on the score and rank secured by the student."
+            ]
+        },
+        {
+            "tag": "VITEEE Preparation",
+            "patterns": [
+                "how to prepare for viteee?",
+                "exam preparation",
+                "viteee preparation",
+                "preparing for viteee",
+                "preparing for exam",
+                "exam strategies",
+                "strategies for exam preparation",
+                "exam preparation strategies"
+            ],
+            "responses": [
+                "VITEEE, like other competitive exams, requires proper strategy combined with excellent accuracy and speed. Although there is no negative marking like in other competitive examinations, you still need to have clear concepts and develop effective time-management strategies. Some preparation strategies that you can create are: \n1. Time Management: For VITEEE exam, it is not necessary to solve all questions, but it is about solving decent number of questions in a proper time frame. If you are not able to solve any question, then please do not waste your time on it and move on to the next one. Also, it is advisable to attempt the easy questions first and gradually move towards attempting the difficult ones. \n2. Develop Speed & Accuracy: Try to develop your own strategies to crack the exam. Enhance your analytical skills and aim to attempt all the questions while practicing. This will give you an edge over the other students. \n3. Have Clear Concepts: Try to clear all your confusion on time, as it is important for you to have a strong foundation to solve all levels of questions. The more you practice, the easier it becomes for you to fine-tune your concepts. Apart from solving old VITEEE papers, you can also solve the NCERT books for classes 11 and 12. \n4. Prepare Notes: It is advisable to prepare notes on the tips that you receive for the VITEEE exam. This will help you a lot during last minute revision, and the information might be handy for you, as you don’t have to look through your books again and again. \n5. Revision: Guess this is self-explanatory. You need to keep revising every few days to ensure the subject matter gets stored in your memory permanently."
+            ]
+        },
+        {
+            "tag": "Mock Exam",
+            "patterns": [
+                "viteee mock",
+                "mock exam",
+                "viteee mock exam",
+                "will there be any mock test for viteee?",
+                "will there be any mock exam for viteee?",
+                "mock test",
+                "viteee mock test",
+                "mock test for viteee",
+                "mock exam for viteee"
+            ],
+            "responses": [
+                "Mock test will be scheduled after slot booking."
+            ]
+        },
+        {
+            "tag": "Marking Scheme",
+            "patterns": [
+                "marking scheme",
+                "marking scheme for viteee",
+                "viteee marking scheme"
+            ],
+            "responses": [
+                "Each question contains one mark; there is no negative marking for incorrect answers."
+            ]
+        },
+        {
+            "tag": "Payment Confirmation",
+            "patterns": [
+                "what do i do if i have made the payment but not received a confirmation?",
+                "payment confirmation problem",
+                "problem with payment confirmation",
+                "payment confirmation issue",
+                "issue with confirmation of payemnt"
+            ],
+            "responses": [
+                "Please read this important instruction related to payment issues given below and also in the VITEEE page. At the time of transaction, the amount is debited, kindly wait for an hour in the same login page. If Amount debited more than one time, it will be refunded to your account in 5 to 7 days."
+            ]
+        },
+        {
+            "tag": "Payment Refund",
+            "patterns": [
+                "would there be a refund if i have made two payment transactions for my viteee application?",
+                "payment refund",
+                "refund of payment",
+                "payment done twice",
+                "paid twice",
+                "will i get refund after paying twice for my application?"
+            ],
+            "responses": [
+                "‘Yes’. If the amount towards the VITEEE application form has been paid twice for the same application, the excess amount paid will be refunded to your account within 7 working days."
+            ]
+        },
+        {
+            "tag": "Test Cities",
+            "patterns": [
+                "where could i find information about the test cities?",
+                "test cities of viteee",
+                "test centres of viteee",
+                "viteee test centres"
+            ],
+            "responses": [
+                "Please visit the link https://vit.ac.in/testcities"
+            ]
+        },
+        {
+            "tag": "Scholarship",
+            "patterns": [
+                "scholarship",
+                "does vit scholarship?"
+            ],
+            "responses": [
+                "Central and State Board Toppers = 100% waiver on Tuition Fees (for all 4 years)1 to 50 Rank Holder in VITEEE = 75% waiver on Tuition Fees (for all 4 years)51 to 100 Rank Holder in VITEEE = 50% waiver on Tuition Fees (for all 4 years)101 to 1000 Rank Holder in VITEEE = 25% waiver on Tuition Fees (for all 4 years)"
+            ]
+        },
+        {
+            "tag": "NRI",
+            "patterns": [
+                "nri",
+                "non-resident indian",
+                "nris"
+            ],
+            "responses": [
+                "a. Indian passport holders whose parents are employed abroad can apply for both NRI as well as VITEEE (separate application and admission procedures). \nb. PIO card holders can also apply for VITEEE but those holding only foreign passports are not eligible. \nc. To know the admission procedure under NRI/ Foreign categories, kindly visit the below links. \nhttps: //vit.ac.in/admissions/international/btech-eligibilityandprocedure \nhttps: //vit.ac.in/admissions/international/fee \nd. For details on NRI admissions : nriadmission@vit.ac.in \ne. For details on Foreign admissions: global@vit.ac.in"
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": [
+                "thank you",
+                "no thanks",
+                "helpful",
+                "tanks",
+                "thanks",
+                "fine",
+                "cool",
+                "great"
+            ],
+            "responses": [
+                "Thank you"
+            ]
+        }
+    ]
+}
