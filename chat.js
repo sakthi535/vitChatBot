@@ -121,10 +121,10 @@ $(function() {
     str += " <label> English </label>";
 
     str += " <br><input type='radio' name = 'chat-lang' value = 'hi-IN'>"; 
-    str += " <label> Hindi </label>";
+    str += " <label> हिन्दी </label>";
     
     str += " <br><input type='radio' name = 'chat-lang' value = 'ta-IN'>"; 
-    str += " <label> Tamil </label>";
+    str += " <label> தமிழ் </label>";
 
     str += "          <\/div>";
     str += "        <\/div>";

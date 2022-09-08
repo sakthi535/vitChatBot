@@ -38,7 +38,7 @@ tamilData = {
     "tags" : tdata['tags'],
     "model_state" : tdata["model_state"]
 }
-print(tamilData)
+# print(tamilData)
 
 tamilModel = NeuralNet(tamilData['input_size'], tamilData['hidden_size'], tamilData['output_size']).to(device)
 tamilModel.load_state_dict(tamilData["model_state"])
@@ -57,13 +57,13 @@ def testTamil(sentence):
     output = tamilModel(X)
 
     _, predicted = torch.max(output, dim=1)
-    print(predicted)
+    # print(predicted)
 
     tag = tamilData['tags'][predicted.item()]
     # return tag
-    for i in tag:
-        print(i, end = " ")
-    print('')
+    # for i in tag:
+    #     print(i, end = " ")
+    # print('')
 
     for i in tamil_intents["intents"]:
         if(i["tag"] == tag):
@@ -75,8 +75,8 @@ def testTamil(sentence):
     # print('')
     prob = probs[0][predicted.item()]
     # print(tag)
-    print("hereee ")
-    print(intent['responses'])
+    # print("hereee ")
+    # print(intent['responses'])
 
     if prob.item() > 0.75:
         for intent in tamil_intents['intents']:
@@ -95,7 +95,7 @@ def test(sentence):
 
     output = model(X)
     _, predicted = torch.max(output, dim=1)
-    print(predicted)
+    # print(predicted)
 
     tag = tags[predicted.item()]
 
@@ -112,7 +112,7 @@ def test(sentence):
 @app.route('/', methods = ['GET', 'POST'])
 def home():
     if(request.method == 'GET'):
-        print(request.args)
+        # print(request.args)
         data = "request"
     if(request.method == 'POST'):
         try:
@@ -125,7 +125,7 @@ def home():
             # data = request.get_json()['query'] + lang 
         except:
             data = ""
-    print(data)
+    # print(data)
     return jsonify({'data': data})
 
 if __name__ == '__main__':
